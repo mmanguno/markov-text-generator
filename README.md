@@ -14,7 +14,7 @@ usage: text-generator.py [-h] [--length [length]] [--lower [lower]]
                          [--punct [punct]]
                          file [file ...]
 
-Generates text using a Markov text generator.
+Generates text using a Markov text generator
 
 positional arguments:
   file               the file to read in as source

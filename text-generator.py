@@ -1,13 +1,11 @@
 from argparse import ArgumentParser
-from pprint import pprint
 from random import choice
 from string import punctuation
-import sys
 
 """text-generator.py: a simple Markov text generator."""
 
 __author__ = "Mitchell Manguno"
-__version__ = "0.1"
+__version__ = "0.2"
 __date__ = "6 March 2016"
 
 
