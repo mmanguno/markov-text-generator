@@ -8,13 +8,13 @@ Included are two sample texts: William Blake's ["And did those feet..."][0]
 and Van Der Graaf Generator's ["A Plague of Lighthouse Keepers"][1]
 ([lyrics][2]). Go nuts.
 
-### Command line arguments and flags.
+### Command line arguments and flags
 ```
 usage: text-generator.py [-h] [--length [length]] [--lower [lower]]
                          [--punct [punct]]
                          file [file ...]
 
-Generates text using a Markov text generator
+Generates text using a Markov text generator.
 
 positional arguments:
   file               the file to read in as source
