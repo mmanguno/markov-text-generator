@@ -31,19 +31,35 @@ optional arguments:
 ```
 >>> python text-generator.py lighthouse.txt
 
-But sea will I count the points of the hands stretch in the iron-jaw mask, lost my eyes on window-slits, the best I stay in. I know that there's no harbour left to feel like seaweed...I'm so that there's no paraffin for my eyes have blunt scissors, I am so far out of mine? Would you around me, I join or do I crawl the stranger I am drowning - hands of the table lies blank paper and if I am drowning - hands stretch in the light,. I let me deep: one more haggard drowned man. Do I am.
+But sea will I count the points of the hands stretch in the iron-jaw mask,
+lost my eyes on window-slits, the best I stay in. I know that there's no
+harbour left to feel like seaweed...I'm so that there's no paraffin for my
+eyes have blunt scissors, I am so far out of mine? Would you around me, I join
+or do I crawl the stranger I am drowning - hands of the table lies blank paper
+and if I am drowning - hands stretch in the light,. I let me deep: one more
+haggard drowned man. Do I am.
 ```
 
 ```
 >>> python text-generator.py and_did_those_feet.txt
 
-Jerusalem builded here, Among these dark Satanic Mills? Bring me my Sword sleep in ancient time, Walk upon Englands pleasant pastures seen! And did the Countenance Divine, Shine forth upon our clouded hills? And was the Countenance Divine, Shine forth upon Englands mountains green: And did those feet in my Arrows of desire: Bring me my Bow of God, On Englands mountains green: And did those feet in ancient time, Walk upon our clouded hills? And did the Countenance Divine, Shine forth upon our clouded hills? And was Jerusalem builded here, Among these dark Satanic Mills? Bring me my Arrows.
+Jerusalem builded here, Among these dark Satanic Mills? Bring me my Sword
+sleep in ancient time, Walk upon Englands pleasant pastures seen! And did
+the Countenance Divine, Shine forth upon our clouded hills? And was the
+Countenance Divine, Shine forth upon Englands mountains green: And did those
+feet in my Arrows of desire: Bring me my Bow of God, On Englands mountains
+green: And did those feet in ancient time, Walk upon our clouded hills? And
+did the Countenance Divine, Shine forth upon our clouded hills? And was
+Jerusalem builded here, Among these dark Satanic Mills? Bring me my Arrows.
 ```
 
 ```
 >>> python text-generator.py and_did_those_feet.txt --punct False --lower True --length 50
 
-Shall my chariot of burning gold bring me my bow of god on englands green  pleasant pastures seen and did those feet in englands pleasant pastures seen and was the holy lamb of burning gold bring me my sword sleep in my hand till we have built jerusalem in.
+Shall my chariot of burning gold bring me my bow of god on englands green
+pleasant pastures seen and did those feet in englands pleasant pastures seen
+and was the holy lamb of burning gold bring me my sword sleep in my hand till
+we have built jerusalem in.
 ```
 
 [0]: https://en.wikipedia.org/wiki/And_did_those_feet_in_ancient_time
