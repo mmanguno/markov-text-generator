@@ -53,7 +53,7 @@ def _parse(words):
     For each word, we look at the possible next-words, and count the number
     of times that they appear. So if a phrase is "The house, the room", the
     parsed value is
-        {the : {house : 1, room: 1}, house : {the : 1}, room : 'the' : 1}.
+        {the : {house : 1, room: 1}, house : {the : 1}, room : {the : 1}}.
     Words that only appear at the end of the phrase will have their successor
     set to the first word in the text.
 
