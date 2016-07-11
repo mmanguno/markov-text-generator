@@ -1,25 +1,41 @@
+# Copyright Mitchell Manguno 2016
+#
+# This program is free software: you can redistribute it and/or modify
+# it under the terms of the GNU General Public License as published by
+# the Free Software Foundation, either version 3 of the License, or
+# (at your option) any later version.
+#
+# This program is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License
+# along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
+"""
+A simple text generator based on Markov chains.
+"""
+__author__ = "Mitchell Manguno"
+__version__ = "0.3"
+__date__ = "11 July 2016"
+
 from argparse import ArgumentParser
 from random import choice
 from string import punctuation
-
-"""text-generator.py: a simple Markov text generator."""
-
-__author__ = "Mitchell Manguno"
-__version__ = "0.2"
-__date__ = "6 March 2016"
 
 
 # Handle some python2 and python compatability; use xrange as signal
 try:
     xrange  # Python3 doesn't have xrange; this'll throw a NameError
 
-    def strip_punct(word): return word.translate(None, punctuation)
+    def _strip_punct(word): return word.translate(None, punctuation)
 
 except NameError:
     xrange = range  # Set xrange to range; also, account for translate function
     trans_table = {ord(c): None for c in punctuation}
 
-    def strip_punct(word): return word.translate(trans_table)
+    def _strip_punct(word): return word.translate(trans_table)
 
 
 def _read(in_file, lowercase, punct):
@@ -40,7 +56,7 @@ def _read(in_file, lowercase, punct):
             for word in line.split():
                 transformed_word = word
                 if not punct:  # strips punctuation
-                    transformed_word = strip_punct(word)
+                    transformed_word = _strip_punct(word)
                 if lowercase:  # force to lowercase
                     transformed_word = str.lower(transformed_word)
                 words.append(transformed_word)
